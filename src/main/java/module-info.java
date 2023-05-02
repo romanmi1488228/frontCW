@@ -14,6 +14,7 @@ module com.example.frontcw {
     requires okio;
     requires annotations;
     requires static lombok;
+    requires java.desktop;
 
     opens com.example.frontcw to javafx.fxml;
     exports com.example.frontcw;
@@ -29,4 +30,7 @@ module com.example.frontcw {
     exports com.example.frontcw.Controller.admin;
     opens com.example.frontcw.Controller.moderator to javafx.fxml;
     exports com.example.frontcw.Controller.moderator;
+
+    opens com.example.frontcw.TableViewModels to java.base;
+    exports com.example.frontcw.TableViewModels;
 }

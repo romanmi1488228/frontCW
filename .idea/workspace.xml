@@ -5,32 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b1d688-6b68-47e8-92b5-a79ea376581f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/admin/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/any/AnyLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/any/AnyRegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/moderator/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/user/RecipesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Json/AccountModels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Json/Authority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Json/RecipeModels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Json/ReviewModels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Json/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/any/login_page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/any/register_page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/user/recipes_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/user/MyPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/user/RecipeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/TableViewModels/Recipes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/TableViewModels/Reviews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/user/my_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/user/recipe_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/no-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/user/RecipesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/user/RecipesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/user/recipes_page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/user/recipes_page.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +48,20 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/troll/Desktop/frontCW/src/main/resources/static&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.frontcw.Controller.any" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\troll\Desktop\frontCW\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\troll\Desktop\frontCW\src\main\resources\static" />
+      <recent name="C:\Users\troll\Desktop\frontCW\src\main\java\com\example\frontcw\image" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.frontcw" />
@@ -91,7 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683031677713</updated>
       <workItem from="1683031679135" duration="4718000" />
-      <workItem from="1683040253756" duration="4767000" />
+      <workItem from="1683040253756" duration="12268000" />
+      <workItem from="1683055718460" duration="3255000" />
     </task>
     <servers />
   </component>
