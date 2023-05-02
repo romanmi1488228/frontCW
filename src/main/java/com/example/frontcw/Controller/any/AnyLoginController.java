@@ -67,6 +67,15 @@ public class AnyLoginController {
                 stage.show();
                 ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
             }
+            else if (account.getRole().equals("MODERATOR")) {
+                FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("moderator/recipes_page.fxml"));
+                Scene scene = new Scene(fxmlLoader.load());
+                Stage stage = new Stage();
+                stage.setTitle("recipes_page");
+                stage.setScene(scene);
+                stage.show();
+                ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }

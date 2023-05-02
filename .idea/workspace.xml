@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b1d688-6b68-47e8-92b5-a79ea376581f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/user/MyPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/user/RecipeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/TableViewModels/Recipes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/TableViewModels/Reviews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/user/my_page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/user/recipe_page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/no-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/moderator/RecipeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/TableViewModels/RecipesModerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/TableViewModels/ReviewsModerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/moderator/recipe_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/moderator/recipes_page.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/user/RecipesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/user/RecipesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/user/recipes_page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/user/recipes_page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/any/AnyLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/any/AnyLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/moderator/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/moderator/RecipesController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/troll/Desktop/frontCW/src/main/resources/static&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/troll/Desktop/HW/front"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.frontcw.Controller.any" />
@@ -86,7 +82,7 @@
       <updated>1683031677713</updated>
       <workItem from="1683031679135" duration="4718000" />
       <workItem from="1683040253756" duration="12268000" />
-      <workItem from="1683055718460" duration="3255000" />
+      <workItem from="1683055718460" duration="5717000" />
     </task>
     <servers />
   </component>
