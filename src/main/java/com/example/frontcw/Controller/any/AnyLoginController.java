@@ -67,7 +67,7 @@ public class AnyLoginController {
                 stage.show();
                 ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
             }
-            else if (account.getRole().equals("MODERATOR")) {
+            else if (account.getRole().equals("MODERATOR") || account.getRole().equals("ADMIN")) {
                 FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("moderator/recipes_page.fxml"));
                 Scene scene = new Scene(fxmlLoader.load());
                 Stage stage = new Stage();

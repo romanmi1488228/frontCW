@@ -26,8 +26,6 @@ module com.example.frontcw {
     exports com.example.frontcw.Controller.any;
     opens com.example.frontcw.Controller.user to javafx.fxml;
     exports com.example.frontcw.Controller.user;
-    opens com.example.frontcw.Controller.admin to javafx.fxml;
-    exports com.example.frontcw.Controller.admin;
     opens com.example.frontcw.Controller.moderator to javafx.fxml;
     exports com.example.frontcw.Controller.moderator;
 
