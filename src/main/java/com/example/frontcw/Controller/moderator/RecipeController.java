@@ -30,7 +30,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Base64;
 import java.util.List;
+
+import static com.example.frontcw.TableViewModels.RecipesModerator.uid;
 
 public class RecipeController {
     @FXML
@@ -71,12 +74,12 @@ public class RecipeController {
             Response response = call.execute();
             RecipeModels recipe = new Gson().fromJson(response.body().string(), RecipeModels.class);
             try {
-                BufferedImage img = ImageIO.read(new ByteArrayInputStream(recipe.getRecipePicture()));
-                ImageIO.write(img, "png", new File("temp"));
-                Image temp = new Image(new FileInputStream("temp" +".png"));
-                image.setImage(temp);
-                File myObj = new File("temp.png");
-                myObj.delete();
+                byte[] image = Base64.getDecoder().decode(recipe.getRecipePicture());
+                BufferedImage img = ImageIO.read(new ByteArrayInputStream(image));
+                ImageIO.write(img, "png", new File("src/main/resources/cache/imagemod" + uid + ".png"));
+                Image temp = new Image(new FileInputStream("src/main/resources/cache/imagemod"+ uid + ".png"));
+                this.image.setImage(temp);
+                uid++;
             } catch (Exception e) {
                 image.setImage(new Image(new FileInputStream("src/main/resources/static/no-image.png")));
             }

@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b1d688-6b68-47e8-92b5-a79ea376581f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/admin/AdminPostRecipeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/admin/AdminRecipeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/admin/AdminRecipesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/admin/post_recipe_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/admin/recipe_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/frontcw/admin/recipes_page.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/any/AnyLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/any/AnyLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/moderator/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/moderator/RecipeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/user/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Controller/user/RecipeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/frontcw/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Json/RecipeModels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/Json/RecipeModels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/frontcw/TableViewModels/Recipes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/TableViewModels/Recipes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/frontcw/TableViewModels/RecipesModerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/frontcw/TableViewModels/RecipesModerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -37,11 +49,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/troll/Desktop/HW/front"
+    "last_opened_file_path": "C:/Users/troll/Desktop/HW/front",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.3908046"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -52,6 +71,8 @@
       <recent name="C:\Users\troll\Desktop\frontCW\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\troll\Desktop\frontCW\src\main\resources" />
+      <recent name="C:\Users\troll\Desktop\frontCW\src\main\resources\com\example\frontcw" />
       <recent name="C:\Users\troll\Desktop\frontCW\src\main\resources\static" />
       <recent name="C:\Users\troll\Desktop\frontCW\src\main\java\com\example\frontcw\image" />
     </key>
@@ -78,7 +99,9 @@
       <updated>1683031677713</updated>
       <workItem from="1683031679135" duration="4718000" />
       <workItem from="1683040253756" duration="12268000" />
-      <workItem from="1683055718460" duration="7343000" />
+      <workItem from="1683055718460" duration="7880000" />
+      <workItem from="1683130383376" duration="6130000" />
+      <workItem from="1683138430658" duration="5022000" />
     </task>
     <servers />
   </component>

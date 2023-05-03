@@ -15,6 +15,7 @@ module com.example.frontcw {
     requires annotations;
     requires static lombok;
     requires java.desktop;
+    requires org.apache.commons.io;
 
     opens com.example.frontcw to javafx.fxml;
     exports com.example.frontcw;
@@ -22,12 +23,15 @@ module com.example.frontcw {
     opens com.example.frontcw.Json to com.google.gson;
     exports com.example.frontcw.Json;
 
+
     opens com.example.frontcw.Controller.any to javafx.fxml;
     exports com.example.frontcw.Controller.any;
     opens com.example.frontcw.Controller.user to javafx.fxml;
     exports com.example.frontcw.Controller.user;
     opens com.example.frontcw.Controller.moderator to javafx.fxml;
     exports com.example.frontcw.Controller.moderator;
+    opens com.example.frontcw.Controller.admin to javafx.fxml;
+    exports com.example.frontcw.Controller.admin;
 
     opens com.example.frontcw.TableViewModels to java.base;
     exports com.example.frontcw.TableViewModels;

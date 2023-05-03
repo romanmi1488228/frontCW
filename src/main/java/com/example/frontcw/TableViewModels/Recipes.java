@@ -11,6 +11,7 @@ import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Base64;
 
 public class Recipes {
     private static long uid = 0;
@@ -18,13 +19,14 @@ public class Recipes {
     public ImageView image;
     public Button button;
 
-    public Recipes(long id, byte[] image) throws IOException {
+    public Recipes(long id, String imageString) throws IOException {
         try {
-        BufferedImage img = ImageIO.read(new ByteArrayInputStream(image));
-        ImageIO.write(img, "png", new File("image" + uid));
-        Image temp = new Image(new FileInputStream("image"+ uid + ".png"));
-        this.image = new ImageView(temp);
-        uid++;
+            byte[] image = Base64.getDecoder().decode(imageString);
+            BufferedImage img = ImageIO.read(new ByteArrayInputStream(image));
+            ImageIO.write(img, "png", new File("src/main/resources/cache/imagemod" + uid + ".png"));
+            Image temp = new Image(new FileInputStream("src/main/resources/cache/imagemod"+ uid + ".png"));
+            this.image = new ImageView(temp);
+            uid++;
         } catch (Exception e) {
             this.image = new ImageView(new Image(new FileInputStream("src/main/resources/static/no-image.png")));
         }

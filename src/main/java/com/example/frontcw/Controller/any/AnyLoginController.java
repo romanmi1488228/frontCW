@@ -13,8 +13,10 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import okhttp3.*;
+import org.apache.commons.io.FileUtils;
 
 
+import java.io.File;
 import java.io.IOException;
 
 public class AnyLoginController {
@@ -27,6 +29,7 @@ public class AnyLoginController {
     public static Token getToken() {
         return token;
     }
+
     public void onLoginButtonAction(ActionEvent actionEvent) throws IOException {
         OkHttpClient client = new OkHttpClient().newBuilder().build();
         String url = "http://localhost:8080/api/auth/authenticate";
@@ -67,8 +70,17 @@ public class AnyLoginController {
                 stage.show();
                 ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
             }
-            else if (account.getRole().equals("MODERATOR") || account.getRole().equals("ADMIN")) {
+            else if (account.getRole().equals("MODERATOR")) {
                 FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("moderator/recipes_page.fxml"));
+                Scene scene = new Scene(fxmlLoader.load());
+                Stage stage = new Stage();
+                stage.setTitle("recipes_page");
+                stage.setScene(scene);
+                stage.show();
+                ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
+            }
+            else if (account.getRole().equals("ADMIN")) {
+                FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("admin/recipes_page.fxml"));
                 Scene scene = new Scene(fxmlLoader.load());
                 Stage stage = new Stage();
                 stage.setTitle("recipes_page");

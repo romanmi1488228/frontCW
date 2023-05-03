@@ -9,6 +9,6 @@ public class RecipeModels {
     private long id;
     private String ingredients;
     private String steps;
-    private byte[] recipePicture;
+    private String recipePicture;
     private List<ReviewModels> reviewModels;
 }
